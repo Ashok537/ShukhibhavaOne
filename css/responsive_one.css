@@ -1,0 +1,347 @@
+@media screen and (min-width:768px) and (max-width:939px) {
+/*==home page==*/
+
+.logo{width:40%;
+}
+
+.logo img{width:100%;
+}
+
+.row{width:97%;}
+.rw2,.main-slider-sec{width:100%;}
+.service_range{float:right; width:37%;}
+.medicity{width:60%; overflow:hidden;}
+.slider{width:100%;}
+.slider img{width:100%;}
+.content-sec-left{width:60%;}
+.content-sec-right{width:35%;}
+.yashbhatia_detail p{width:147px;}
+.logo-slider{width:auto;}
+#carousel1{width:90%;}
+.nav1 ul li{font-size:15px;}
+.nav1 ul li a{padding:0 10px;}
+.our-project-sec-slider{width:100%;}
+#carousel{width:90%;}
+.caroufredsel_wrapper{width:100% !important;}
+#carousel1 li{width:112px;}
+#carousel li{width:188px; overflow:hidden;}
+/*==End of home page==*/
+/*==about us page ====*/
+.header-img{width:100%;}
+.header-img img{width:100%;}
+.core-team-sec ul li .team-details{width:75%;}
+/*==End about us page ====*/
+/*==Service page ====*/
+.our-projects-accordion{width:100%; margin-bottom:20px;}
+.our-projects-accordion .details-box-sec{width:100%;}
+.our-projects-accordion .details{padding:15px 0;}
+.public_health_projectlist{width:100%;}
+.public_health_projectlist ul li{margin:0px;}
+#scrollbar1{width:100%;}
+#scrollbar1 .viewport{width:95%;}
+.public_health{width:95%;}
+#scrollbar2 .viewport{width:95%;}
+#scrollbar2{width:100%;}
+/*==End of Service page ====*/
+/*==projects page ====*/
+.view_project{width:100%;}
+/*==End of projects page ====*/
+/*==Client page ====*/
+.clients-sec ul li{width:125px;}
+.clients-sec ul li img{width:100%;}
+/*==End of Client page ====*/
+/*==carrier page ====*/
+.carrier_picture{width:100%;}
+.carrier_picture img{height:150px; width:200px; margin:5px;}
+.arow{width:100%;}
+/*==End of carrier page ====*/
+/*==contactus page ====*/
+.contactus{width:100%;}
+.address{width:90%; margin:10px; height:auto;}
+.address_heading{width:100%;}
+.email{text-align:left;}
+/*==End of contactus page ====*/
+
+.four_pic ul li{ float:left; width:23%; margin-right:12px;}
+.four_pic ul li img{ width:100%; height:auto;}
+
+
+}
+@media screen and (min-width:640px) and (max-width:767px) {
+/*==home page==*/
+.row{width:100%;}
+.rw{width:97%;}
+.rw2,.main-slider-sec{width:100%;}
+.service_range{float:right; width:42%; margin:20px 10px 0 0;}
+.medicity{width:55%; overflow:hidden;}
+.slider{width:100%; height:auto; margin-top:40px;}
+.main-slider-sec{height:auto;}
+.slider img{width:100%;}
+.content-sec-left{width:60%; padding:5px;}
+.content-sec-right{width:35%; padding:5px;}
+.yashbhatia_detail p{width:100%; margin:0px;}
+.mb_col{display:block; margin-right:10px;}
+.yashbhatia_detail img{margin-right:15px; margin-top:0px;}
+.dsk_col{display:none;}
+.logo-slider{width:auto;}
+#carousel1{width:510px;}
+.nav1 ul li{font-size:12px;}
+.nav1 ul li a{padding:0 10px;}
+.our-project-sec-slider{width:100%;}
+#carousel{width:90%;}
+.caroufredsel_wrapper{width:100% !important;}
+#carousel1 li{width:112px;}
+#carousel li{width:188px; overflow:hidden;}
+.social-icon{position:absolute;}
+.footer-sec,.copyright{height:auto;}
+.copyright-powered-by{height:auto; line-height:15pt; padding:10px;}
+.fleft span{display:block;}
+/*==End of home page==*/
+/*==about us page ====*/
+.header-img{width:100%; height:auto; padding:0 0 20px;}
+.header-img img{width:100%; height:auto;}
+.core-team-sec ul li .team-details{width:100%;}
+.team-details img{ float:left; border:solid 2px #61cfee;}
+.core-team-sec ul li .img{display:none;}
+/*==End about us page ====*/
+/*==Service page ====*/
+.our-projects-accordion{width:100%; margin-bottom:20px;}
+.our-projects-accordion .details-box-sec{width:100%;}
+.our-projects-accordion .details{padding:15px 0;}
+.public_health_projectlist{width:100%;}
+.public_health_projectlist ul li{margin:0px;}
+#scrollbar1{width:100%;}
+#scrollbar1 .viewport{width:95%;}
+.public_health{width:95%;}
+#scrollbar2 .viewport{width:95%;}
+#scrollbar2{width:100%;}
+/*==End of Service page ====*/
+/*==projects page ====*/
+.view_project{width:100%;}
+/*==End of projects page ====*/
+/*==Client page ====*/
+.clients-sec ul li{width:110px; height:auto;}
+.clients-sec ul li img{width:100%;}
+/*==End of Client page ====*/
+/*==carrier page ====*/
+.carrier_picture{width:100%;}
+.carrier_picture img{height:130px; width:180px; margin:5px;}
+.arow{width:100%;}
+/*==End of carrier page ====*/
+/*==contactus page ====*/
+.contactus{width:100%;}
+.address{width:90%; margin:10px; height:auto;}
+.address_heading{width:100%;}
+.email{text-align:left;}
+/*==End of contactus page ====*/
+.m_col{display:block;}
+.m_col2{display:none;}
+.content-bg1{background:none;}
+
+
+.four_pic ul li{ float:left; width:23%; margin-right:12px;}
+.four_pic ul li img{ width:100%; height:auto;}
+
+.slidr{ width:50%; height:auto}
+.slidr img{ height:auto; width:100%;}
+
+}
+@media screen and (min-width:480px) and (max-width:639px) {
+/*==home page==*/
+.row{width:100%;}
+.rw{width:97%;}
+.rw2{ margin-top:10px;}
+.rw2,.main-slider-sec{width:100%;}
+.service_range{float:none; width:auto; margin:auto; display:table;}
+.medicity{width:100%; overflow:hidden; float:none; margin:10px 0;}
+.slider{width:100%; height:300px;}
+.main-slider-sec{height:auto;}
+.slider img{width:100%;}
+.content-sec-left{width:95%; float:none; margin:auto;}
+.content-sec-right{width:95%; float:none; margin:auto;}
+.yashbhatia_detail p{width:auto; margin:0px;}
+.logo-slider{width:auto;}
+#carousel1{width:388px;}
+.nav1 ul li{font-size:12px;}
+.nav1 ul li a{padding:0 10px;}
+.our-project-sec-slider{width:100%;}
+#carousel{width:390px;}
+.caroufredsel_wrapper{width:100% !important;}
+#carousel1 li{width:112px;}
+#carousel li{width:188px; overflow:hidden;}
+.social-icon{position:absolute;}
+.footer-sec,.copyright{height:auto;}
+.copyright-powered-by{height:auto; line-height:15pt; padding:10px; font-size:12px;}
+.fleft span{display:block;}
+.mb_col{display:block; margin-right:10px;}
+.dsk_col{display:none;}
+.yashbhatia_detail img{margin-right:15px; margin-top:0px;}
+.nav1{height:auto;}
+.nav1 ul li a{height:auto; line-height:21pt;}
+/*==End of home page==*/
+/*==about us page ====*/
+.header-img{width:100%;height:auto; padding:0 0 20px;}
+.header-img img{width:100%; height:auto;}
+.core-team-sec ul li .team-details{width:100%;}
+.team-details img{ float:left; border:solid 2px #61cfee;}
+.core-team-sec ul li .img{display:none;}
+.reveal-modal{width:80%; margin:auto;}
+.management-popup{width:100%;}
+.profile-popup{width:100%;}
+.reveal-modal{margin-left:-200px;}
+/*==End about us page ====*/
+/*==Service page ====*/
+.our-projects-accordion{width:100%; margin-bottom:20px;}
+.our-projects-accordion .details-box-sec{width:100%;}
+.our-projects-accordion .details{padding:15px 0;}
+.public_health_projectlist{width:100%;}
+.public_health_projectlist ul li{margin:0px;}
+#scrollbar1{width:100%;}
+#scrollbar1 .viewport{width:95%;}
+.public_health{width:95%;}
+#scrollbar2 .viewport{width:95%;}
+#scrollbar2{width:100%;}
+/*==End of Service page ====*/
+/*==projects page ====*/
+.view_project{width:100%; margin-bottom:15px;}
+/*==End of projects page ====*/
+/*==Client page ====*/
+.clients-sec ul li{width:29%; height:auto;}
+.clients-sec ul li img{width:100%;}
+/*==End of Client page ====*/
+/*==carrier page ====*/
+.carrier_picture{width:100%;}
+.carrier_picture img{height:100px; width:140px; margin:5px;}
+.arow{width:100%;}
+/*==End of carrier page ====*/
+/*==contactus page ====*/
+.contactus{width:100%;}
+.address{width:90%; margin:10px; height:auto;}
+.address_heading{width:100%;}
+.email{text-align:left;}
+/*==End of contactus page ====*/
+.m_col{display:block;}
+.m_col2{display:none;}
+.content-bg1{background:none;}
+.slidr{ width:50%; height:auto}
+.slidr img{ height:auto; width:100%;}
+.four_pic ul li{ float:left; width:47%; margin-right:12px;}
+.four_pic ul li img{ width:100%; height:auto;}
+
+.logo{ width:50%; background-size:100%;}
+.logo img{ height:auto; width:100%; }
+
+}
+@media screen and (max-width:479px){
+/*==home page==*/
+.row{width:100%;}
+.rw2{ margin-top:10px;}
+.rw{width:97%;}
+.rw2,.main-slider-sec{width:100%;}
+.service_range{float:none; width:auto; margin:auto; display:table;}
+.medicity{width:100%; overflow:hidden; float:none; margin:10px 0;}
+.slider{width:100%; height:200px;}
+.main-slider-sec{ margin:0 auto 30px 0;}
+.main-slider-sec{height:auto;}
+.slider img{width:100%;}
+.content-sec-left{width:95%; float:none; margin:auto;}
+.content-sec-right{width:95%; float:none; margin:auto;}
+.yashbhatia_detail p{width:auto; margin:0px;}
+.logo-slider{width:auto;}
+#carousel1{width:388px;}
+.nav1 ul li{font-size:12px;}
+.nav1 ul li a{padding:0 10px;}
+.our-project-sec-slider{width:100%;}
+#carousel{width:194px; margin:auto;}
+.caroufredsel_wrapper{width:100% !important;}
+#carousel1 li{width:112px;}
+#carousel li{width:188px; overflow:hidden;}
+.social-icon{position:absolute;}
+.footer-sec,.copyright{height:auto;}
+.copyright-powered-by{height:auto; line-height:15pt; padding:10px; font-size:12px;}
+.fleft span{display:block;}
+.mb_col{display:block; margin-right:10px;}
+.dsk_col{display:none;}
+.yashbhatia_detail img{margin-right:15px; margin-top:0px;}
+.nav1{height:auto;}
+.nav1 ul li a{height:auto; line-height:21pt;}
+.logo{margin:auto;}
+#carousel .prev{left:-30px; top:57px;}
+#carousel .prev:hover{left:-30px;}
+#carousel .next{right:-30px; top:57px;}
+#carousel .next:hover{right:-30px;}
+.welcome-icon{font-size:18px;}
+#carousel1{width:260px;}
+#carousel1 .prev1{left:-20px;}
+#carousel1 .prev1:hover{left:-20px;}
+#carousel1 .next1{right:-20px;}
+#carousel1 .next1:hover{right:-20px;}
+/*==End of home page==*/
+/*==about us page ====*/
+.header-img{width:100%; height:auto; padding:0 0 20px;}
+.header-img img{width:100%; height:auto;}
+.core-team-sec ul li .team-details{width:100%;}
+.team-details img{ float:left; border:solid 2px #61cfee;}
+.core-team-sec ul li .img{display:none;}
+.reveal-modal{width:80%; margin:auto;  margin-left:0px; left:3%;}
+.management-popup{width:100%; text-align:center;}
+.profile-popup{width:100%;}
+.management-popup img{float:none;}
+.management-popup h4{width:100%; margin:0px;}
+/*==End of about us page ====*/
+/*==Service page ====*/
+.our-projects-accordion{width:100%; margin-bottom:10px;}
+.our-projects-accordion .details-box-sec{width:100%;}
+.our-projects-accordion .details{padding:15px 0;}
+.public_health_projectlist{width:100%;}
+.public_health_projectlist ul li{margin:0px;}
+#scrollbar1{width:100%;}
+#scrollbar1 .viewport{width:95%;}
+.public_health{width:95%;}
+#scrollbar2 .viewport{width:95%;}
+#scrollbar2{width:100%;}
+/*==End of Service page ====*/
+/*==projects page ====*/
+.view_project{width:100%; margin-bottom:15px;}
+.view_project p{margin:0 0 0 5px; font-size:12px;}
+.view_project h4{font-size:11px; padding:10px 10px 10px 0; margin:0;}
+/*==End of projects page ====*/
+/*==Client page ====*/
+.clients-sec ul li{width:42%; margin:10px; height:auto;}
+.clients-sec ul li img{width:100%;}
+/*==End of Client page ====*/
+/*==testimonial page ====*/
+.testimonial img{width:80%;}
+/*==End of testimonial page ====*/
+/*==carrier page ====*/
+.carrier_picture{width:100%;}
+.carrier_picture img{height:100px; width:140px; margin:5px;}
+.arow{width:100%;}
+/*==End of carrier page ====*/
+/*==contactus page ====*/
+.contactus{width:100%;}
+.address{width:90%; margin:10px; height:auto;}
+.address_heading{width:100%;}
+.email{text-align:left;}
+/*==End of contactus page ====*/
+.m_col{display:block;}
+.m_col2{display:none;}
+.content-bg1{background:none;}
+
+.logo{ width:80%; background-size:100%; float:none; text-align:center;}
+.logo img{ height:auto; width:100%; }
+
+.header-shadow{ height:290px;
+
+}
+.slidr{ width:100%; height:auto; float:none;}
+.slidr img{ height:auto; width:100%;}
+
+.four_pic ul li{ float:none; width:auto; display:block; text-align:center; margin-bottom:10px;}
+ 
+ .copyright-powered-by{ text-align:center; float:none;}
+
+@media screen and (max-width:360px){
+
+}
+
