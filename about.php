@@ -1,7 +1,7 @@
 
 <!DOCTYPE HTML>
 <html>
-	<head>
+	<head> <!-- Ashok -->
 		<title>About Shukhibhava</title>
 		 <link  href="images/logo2.jpg" rel="icon" type="image/x-icon" />	
 	<meta charset="utf-8"> 
