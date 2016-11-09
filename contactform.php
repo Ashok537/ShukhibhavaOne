@@ -112,6 +112,15 @@ if(isset($_POST['submitted']))
 		 .uldisc{
 			     font-weight: bold;
 		 }
+		 
+		 .wediv{
+			 font-size:50px;
+			 font-weight:bold;
+		 }
+		 
+		 .Atdiv{
+			font-size:25px; 
+		 }
       </style>
 </head>
 <body>	<!----start-wrap---->
@@ -187,12 +196,16 @@ if(isset($_POST['submitted']))
 	<br>
 <!-- container for showing jobs start-->
 
-<div class="w3-container ">
-<h2><center > WE'RE HIRING</center></h2>
-  <h3><center>At Shukhibhava, we're working on solving the challenges that take us a step closer to our mission every day</center></h3>
+<div class="wediv"><center>
+     WE'RE HIRING</center>	   
+   </div>
+  <div class="Atdiv"><center> At Shukhibhava, we're working on solving the challenges that take us a step closer to our mission every day</center></div>
+    
 
-  <br>
-  <br>
+
+  
+<div class="w3-container ">
+
 
 <div class="container">
 <div id = "tabs-1">
