@@ -48,7 +48,7 @@
 
 ul.rig li {
  display: inline-block;
- padding: 10px;
+ padding: 5px;
  margin: 0 0 2.5% 2.5%;
  background: #fff;
  border: 1px solid #ddd;
