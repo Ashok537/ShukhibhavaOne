@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <html>
 	<head>
@@ -169,7 +168,7 @@ ul.rig.columns-4 li {
    
   </div>
  </div>
-  <a href="index.php" title="Logo" style="float:left;width:auto; margin-top:15px;"><img src="images/logo.png" /></a>
+  <a href="index.php" title="Logo" style="float:left;width:auto; margin-top:15px;margin-left:15px;"><img src="images/logo.png" /></a>
  <div class="row rw2">
  <div class="new_helpline">
      <h6> <span>Contact Number</span> <br />040-2370 2370</h6>
