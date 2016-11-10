@@ -74,7 +74,7 @@ ul.rig li:hover {
 ul.rig li h6 {
 	margin: 0 0 5px;
 	font-size: medium;
-	color:black;
+	color:white;
 	font-weight:bold;
 }
 
@@ -89,7 +89,7 @@ ul.rig.columns-4  {
 }
 ul.rig.columns-4 li {
 	width: 17.5%; /* this value + 2.5 should = 25% */
-	background-color: lightblue;
+	background-color: #00ADEE;
 	
 }
 
@@ -169,10 +169,9 @@ ul.rig.columns-4 li {
    
   </div>
  </div>
- <div class="logo"> <a href="index.php" title="Logo">Shukhibhava : Hospital & Health Care Consultants</a></div> 
+  <a href="index.php" title="Logo" style="float:left;width:auto; margin-top:15px;"><img src="images/logo.png" /></a>
  <div class="row rw2">
-      
-     <div class="new_helpline">
+ <div class="new_helpline">
      <h6> <span>Contact Number</span> <br />040-2370 2370</h6>
      </div>
    </div>
@@ -181,52 +180,52 @@ ul.rig.columns-4 li {
 			<ul class="rig columns-4">
 				<li>
 					<a href="accreditation.php" ><img src="images/Artboard 3.png" /></a>
-					<h6>ACCREDITATIONS</h6>
+					<h6><center>ACCREDITATIONS</center></h6>
 					
 				</li>
 				<li>
 					<a href="projectmanagement.php"><img src="images/Artboard 9.png" /></a>
-					<h6>PROJECT MANAGEMENT</h6>
+					<h6><center>PROJECT MANAGEMENT</center></h6>
 					
 				</li>
 				<li>
 					<a href="softwaredevelopment.php"><img src="images/Artboard 2.png" /></a>
-					<h6>SOFTWARE DEVELOPMENT</h6>
+					<h6><center>SOFTWARE DEVELOPMENT</center></h6>
 					
 				</li>
 				<li>
 					<a href="hospitalmanagement.php"><img src="images/Artboard 6.png" /></a>
-					<h6>HOSPITAL MANAGEMENT</h6>
+					<h6><center>HOSPITAL MANAGEMENT</center></h6>
 					
 				</li>
 				<li>
 					<a href="businessdevelopment.php"><img src="images/Artboard 1.png" /></a>
-					<h6>BUSINESS DEVELOPMENT</h6>
+					<h6><center>BUSINESS DEVELOPMENT</center></h6>
 					
 				</li>
 				<li>
 					<a href="manpowersolutions.php"><img src="images/Artboard 10.png" /></a>
-					<h6>MAN POWER SOLUTIONS</h6>
+					<h6><center>MAN POWER SOLUTIONS</center></h6>
 					
 				</li>
 				<li>
 					<a href="financial.php"><img src="images/Artboard 4.png" /></a>
-					<h6>FINANCE & AUDIT</h6>
+					<h6><center>FINANCE & AUDIT</center></h6>
 					
 				</li>
 				<li>
 					<img src="images/Artboard 5.png" />
-					<h6>MEDICAL EQUIPMENT</h6>
+					<h6><center>MEDICAL EQUIPMENT</center></h6>
 					
 				</li>
 				<li>
 					<img src="images/Artboard 8.png" />
-					<h6>EMPANELMENT & LEGAL</h6>
+					<h6><center>EMPANELMENT & LEGAL</center></h6>
 					
 				</li>
 				<li>
 					<img src="images/Artboard 7.png" />
-					<h6>MEDIA SOLUTIONS</h6>
+					<h6><center>MEDIA SOLUTIONS</center></h6>
 					
 				</li>
 				

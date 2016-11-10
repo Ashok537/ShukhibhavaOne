@@ -99,7 +99,7 @@
    
   </div>
  </div>
- <div class="logo"> <a href="index.php" title="Logo">Shukhibhava : Hospital & Health Care Consultants</a></div> 
+<a href="index.php" title="Logo" style="float:left;width:auto; margin-top:15px;"><img src="images/logo.png" /></a>
  <div class="row rw2">
         
      <div class="new_helpline">
