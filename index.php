@@ -12,6 +12,7 @@
     <script src='js/jquery.min.js'></script>
     <script src="js/index_one.js"></script>
     <link rel="stylesheet" href="css/example.css">
+	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 		 <!--<link href="bootstrap.min.css" rel="stylesheet" />-->			
 		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
@@ -30,6 +31,12 @@
 		  ga('send', 'pageview');
 
 		</script>
+		
+		
+		
+		
+		
+		
 		<meta name="description" content="shukhibhava,a well established business consultancy which take cares of every business need now launching into software solutions">
 	    <script type="text/javascript">
 			jQuery(document).ready(function($) {
@@ -50,7 +57,8 @@ ul.rig li {
  padding: 5px;
  margin: 0 0 2.5% 2.5%;
  background: #fff;
- border: 1px solid #ddd;
+}
+ <!--border: 1px solid #ddd;
  font-size: 16px;
  font-size: 1rem;
  vertical-align: top;
@@ -62,33 +70,78 @@ ul.rig li {
  -o-transition: 0.1s all;
  -ms-transition: 0.1s all;
 }
-ul.rig li:hover {
- transform: scale(1.05);
- -webkit-transform: scale(1.05);
- -moz-transform: scale(1.05);
- -o-transform: scale(1.05);
- -ms-transform: scale(1.05);
- z-index: 1;
+
+
+
+<!--
+-->
+
+.module {
+    background: url(http://s3-us-west-2.amazonaws.com/s.cdpn.io/3/skyscrapers.jpg);
+  background-attachment: fixed;
+  background-attachment: fixed;
+  width: 400px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
 }
-ul.rig li h6 {
-	margin: 0 0 5px;
-	font-size: medium;
-	color:white;
-	font-weight:bold;
+.module > header {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10px;
+  background: inherit;
+  background-attachment: fixed;
+  overflow: hidden;
 }
+.module > header::before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background: inherit;
+  background-attachment: fixed;
+  -webkit-filter: blur(4px);
+  filter: blur(4px);
+}
+.module > header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.25)
+}
+.module > header > h1 {
+  margin: 0;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
 
 
 /* class for 4 columns */
 
 
-ul.rig.columns-4  {		
+ul.rig.columns-4 {		
     display: inline-table;
     margin-left: 5px;
     margin-right: 25px;
 }
 ul.rig.columns-4 li {
 	width: 17.5%; /* this value + 2.5 should = 25% */
-	background-color: #00ADEE;
+	background-color: #fff;
 	
 }
 
@@ -175,11 +228,26 @@ ul.rig.columns-4 li {
      </div>
    </div>
 </header> 
-		<div id="four-columns" class="grid-container" style="display:block;">
+		<div id="four-columns" class="grid-container" >
+		
 			<ul class="rig columns-4">
 				<li>
+				
+				<div class="module">
+					  
+					  <header>
+						<h1>
+						  Skyscraper
+						</h1>
+					  </header>
+					</div>
+								
+					<!--<a href="accreditation.php" ><img src="images/Artboard 3.png" /></a>
+					<h6><center>accreditation</center></h6>
+					  
+					
 					<a href="accreditation.php" ><img src="images/Artboard 3.png" /></a>
-					<h6><center>ACCREDITATIONS</center></h6>
+					<h6><center>ACCREDITATIONS</center></h6>-->
 					
 				</li>
 				<li>
