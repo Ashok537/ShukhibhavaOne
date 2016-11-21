@@ -127,11 +127,12 @@ display: inline-block;
  margin: -1px;
  }
 
-@media (max-width: 680px) {
+@media (max-width: 400px) {
+	
 .boxnew ul li{
   display: block;
   margin: 0 0 5px;
-   width: 19.5%;
+   width: 20.5%;
  }
  .boxnew ul li img {
   display: block;
@@ -148,8 +149,12 @@ display: inline-block;
 	
 	 width: -8.5%;
 	 float:left;
-	 margin-left:10px;
+	 margin-left:30px;
  }
+ .header-shadow,.footer,.copy-right{
+	 width:70%;
+ }
+
 }
 
 </style>
