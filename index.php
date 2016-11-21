@@ -52,36 +52,17 @@
 		
 <style type="text/css">
 
-ul.rig li {
- display: inline-block;
- padding: 5px;
- margin: 0 0 2.5% 2.5%;
- background: #fff;
-}
- <!--border: 1px solid #ddd;
- font-size: 16px;
- font-size: 1rem;
- vertical-align: top;
- box-shadow: 0 0 5px #ddd;
- box-sizing: border-box;
-  transition: 0.5s all;
- -webkit-transition: 0.1s all;
- -moz-transition: 0.1s all;
- -o-transition: 0.1s all;
- -ms-transition: 0.1s all;
-}
+
 
 
 
 <!--
 -->
-
 .module {
-    background: url(http://s3-us-west-2.amazonaws.com/s.cdpn.io/3/skyscrapers.jpg);
+   
   background-attachment: fixed;
-  background-attachment: fixed;
-  width: 400px;
-  height: 300px;
+  width: 230px;
+  height: 230px;
   position: relative;
   overflow: hidden;
   margin: 20px;
@@ -91,10 +72,11 @@ ul.rig li {
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 20px 10px;
+  padding: 10px 10px;
   background: inherit;
   background-attachment: fixed;
   overflow: hidden;
+  
 }
 .module > header::before {
   content: "";
@@ -107,6 +89,7 @@ ul.rig li {
   background-attachment: fixed;
   -webkit-filter: blur(4px);
   filter: blur(4px);
+  
 }
 .module > header::after {
   content: "";
@@ -115,13 +98,15 @@ ul.rig li {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.25)
+  background: rgba(255,255,255, 0.5);
 }
 .module > header > h1 {
   margin: 0;
-  color: white;
+  color: black;
   position: relative;
   z-index: 1;
+  font-weight:bold;
+  text-align:center;
 }
 
 * {
@@ -129,40 +114,37 @@ ul.rig li {
 }
 
 
-
-
-/* class for 4 columns */
-
-
-ul.rig.columns-4 {		
-    display: inline-table;
-    margin-left: 5px;
-    margin-right: 25px;
+.boxnew ul li {
+width: 98%;
 }
-ul.rig.columns-4 li {
-	width: 17.5%; /* this value + 2.5 should = 25% */
-	background-color: #fff;
-	
-}
+.boxnew ul li{
 
-
+display: inline-block;
+ padding: 5px;
+ margin: 0 0 2.5% 2.5%;
+ background: #fff;
+ width: 19.5%;
+ margin: -1px;
+ }
 
 @media (max-width: 480px) {
-	ul.grid-nav li {
-		display: block;
-		margin: 0 0 5px;
-	}
-	ul.grid-nav li a {
-		display: block;
-	}
-	ul.rig {
-		margin-left: 0;
-	}
-	ul.rig li {
-		width: 100% !important; /* over-ride all li styles */
-		margin: 0 0 20px;
-	}
+.boxnew ul li{
+  display: block;
+  margin: 0 0 5px;
+   width: 10.5%;
+ }
+ .boxnew ul li img {
+  display: block;
+ }
+ .boxnew ul li {
+  margin-left: 0;
+ }
+.boxnew ul li {
+  width: 100% !important; / over-ride all li styles /
+  margin: 0 0 20px;
+ }
 }
+
 </style>
 	</head>
 	<body>
@@ -228,76 +210,96 @@ ul.rig.columns-4 li {
      </div>
    </div>
 </header> 
-		<div id="four-columns" class="grid-container" >
 		
-			<ul class="rig columns-4">
-				<li>
-				
-				<div class="module">
+		
+			<div class="boxnew">
+						<ul >
+						<li>
+						<div class="module" style=" background: url('file:///C:/xampp/htdocs/Shukhibhava/ShukhibhavaOne/images/Artboard3.png');">
 					  
 					  <header>
 						<h1>
-						  Skyscraper
+						  ACCREDITATION
 						</h1>
 					  </header>
 					</div>
-								
-					<!--<a href="accreditation.php" ><img src="images/Artboard 3.png" /></a>
-					<h6><center>accreditation</center></h6>
+					</li>
+				<li><div class="module" style="background: url('file:///C:/xampp/htdocs/Shukhibhava/ShukhibhavaOne/images/Artboard 1.png')">
 					  
-					
-					<a href="accreditation.php" ><img src="images/Artboard 3.png" /></a>
-					<h6><center>ACCREDITATIONS</center></h6>-->
-					
-				</li>
-				<li>
-					<a href="projectmanagement.php"><img src="images/Artboard 9.png" /></a>
-					<h6><center>PROJECT MANAGEMENT</center></h6>
-					
-				</li>
-				<li>
-					<a href="softwaredevelopment.php"><img src="images/Artboard 2.png" /></a>
-					<h6><center>SOFTWARE DEVELOPMENT</center></h6>
-					
-				</li>
-				<li>
-					<a href="hospitalmanagement.php"><img src="images/Artboard 6.png" /></a>
-					<h6><center>HOSPITAL MANAGEMENT</center></h6>
-					
-				</li>
-				<li>
-					<a href="businessdevelopment.php"><img src="images/Artboard 1.png" /></a>
-					<h6><center>BUSINESS DEVELOPMENT</center></h6>
-					
-				</li>
-				<li>
-					<a href="manpowersolutions.php"><img src="images/Artboard 10.png" /></a>
-					<h6><center>MAN POWER SOLUTIONS</center></h6>
-					
-				</li>
-				<li>
-					<a href="financial.php"><img src="images/Artboard 4.png" /></a>
-					<h6><center>FINANCE & AUDIT</center></h6>
-					
-				</li>
-				<li>
-					<img src="images/Artboard 5.png" />
-					<h6><center>MEDICAL EQUIPMENT</center></h6>
-					
-				</li>
-				<li>
-					<img src="images/Artboard 8.png" />
-					<h6><center>EMPANELMENT & LEGAL</center></h6>
-					
-				</li>
-				<li>
-					<img src="images/Artboard 7.png" />
-					<h6><center>MEDIA SOLUTIONS</center></h6>
-					
-				</li>
-				
-			</ul>
+					  <header>
+						<h1>
+						  BUSINESS DEVELOPMENT
+						</h1>
+					  </header>
+					</div>
+					</li>
+				<li><div class="module" style="background: url('file:///C:/xampp/htdocs/Shukhibhava/ShukhibhavaOne/images/Artboard 2.png')">
+					  
+					  <header>
+						<h1>
+						  SOFTWARE SOLUTIONS
+						</h1>
+					  </header>
+					</div></li>
+				<li><div class="module" style="background: url('file:///C:/xampp/htdocs/Shukhibhava/ShukhibhavaOne/images/Artboard 9.png')">
+					  
+					  <header>
+						<h1>
+						  PROJECT MANAGEMENT
+						</h1>
+					  </header>
+					</div></li>
+				<li><div class="module" style="background: url('file:///C:/xampp/htdocs/Shukhibhava/ShukhibhavaOne/images/Artboard 7.png')">
+					  
+					  <header>
+						<h1>
+						  MEDIA SOLUTIONS
+						</h1>
+					  </header>
+					</div></li>
+					<li><div class="module" style="background: url('file:///C:/xampp/htdocs/Shukhibhava/ShukhibhavaOne/images/Artboard 4.png')">
+					  
+					  <header>
+						<h1>
+						  FINANCE & AUDIT
+						</h1>
+					  </header>
+					</div></li>
+				<li><div class="module" style="background: url('file:///C:/xampp/htdocs/Shukhibhava/ShukhibhavaOne/images/Artboard 5.png')">
+					  
+					  <header>
+						<h1>
+						  MEDICAL AND NON MEDICAL EQUIPMENT
+						</h1>
+					  </header>
+					</div></li>
+				<li><div class="module" style="background: url('file:///C:/xampp/htdocs/Shukhibhava/ShukhibhavaOne/images/Artboard 6.png')">
+					  
+					  <header>
+						<h1>
+						  HOSPITAL MANAGMENT
+						</h1>
+					  </header>
+					</div></li>
+				<li><div class="module" style="background: url('file:///C:/xampp/htdocs/Shukhibhava/ShukhibhavaOne/images/Artboard 8.png')">
+					  
+					  <header>
+						<h1>
+						  LEGAL & COMPLAINCES
+						</h1>
+					  </header>
+					</div></li>
+					<li><div class="module" style="background: url('file:///C:/xampp/htdocs/Shukhibhava/ShukhibhavaOne/images/Artboard 10.png')">
+					  
+					  <header>
+						<h1>
+						  MANPOWER SOLUTIONS
+						</h1>
+					  </header>
+					</div></li>
+					</ul>
 		</div>
+		
  
 		 <!---start-footer---->
 		 <div class="footer">
