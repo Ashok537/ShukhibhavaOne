@@ -127,11 +127,11 @@ display: inline-block;
  margin: -1px;
  }
 
-@media (max-width: 480px) {
+@media (max-width: 680px) {
 .boxnew ul li{
   display: block;
   margin: 0 0 5px;
-   width: 10.5%;
+   width: 19.5%;
  }
  .boxnew ul li img {
   display: block;
@@ -142,6 +142,13 @@ display: inline-block;
 .boxnew ul li {
   width: 100% !important; / over-ride all li styles /
   margin: 0 0 20px;
+ }
+ .new_helpline{
+	 '<br/>' &nbsp;
+	
+	 width: -8.5%;
+	 float:left;
+	 margin-left:10px;
  }
 }
 
@@ -217,11 +224,11 @@ display: inline-block;
 						<li>
 						<div class="module" style=" background: url('file:///C:/xampp/htdocs/Shukhibhava/ShukhibhavaOne/images/Artboard3.png');">
 					  
-					  <header>
-						<h1>
-						  ACCREDITATION
-						</h1>
-					  </header>
+									  <header>
+										<h1>
+										  ACCREDITATION
+										</h1>
+									  </header>
 					</div>
 					</li>
 				<li><div class="module" style="background: url('file:///C:/xampp/htdocs/Shukhibhava/ShukhibhavaOne/images/Artboard 1.png')">
